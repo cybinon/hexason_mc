@@ -1,0 +1,47 @@
+# Coordinates
+# Version: 2.11
+# Made by: johntheskeleton | Plugin_Developer
+
+# If set to true, players will have coords enabled when they join the server. (Does not need the coords.use permission).
+Enable On Join: true
+
+# Set these true to where you want the information to be displayed!
+ActionBar: true
+BossBar: false
+
+# If set to true, the ActionBar will fade away when not moving. If set to false, the ActionBar will stay visible.
+ActionBar Fade: true
+
+# Change the color of the BossBar.
+# Available Colors: BLUE, GREEN, PINK, PURPLE, WHITE, YELLOW, RED.
+BossBarColor: 'WHITE'
+
+# Type in your World Name to sync the world time (This can be found by looking at the folder name of your world!).
+# Set World Time to 'PlayerTime' if you want the time to be where the player is located!
+World Time: 'world'
+
+# Blocks away the target placefiles will detect
+Target Distance: 5
+
+# How many decimals do you want with the XYZ coords?
+Decimals: 0
+
+# Messages when they execute the command "/coords"
+Enabled Message:
+  - '&r'
+  - '&aYou have &2&nenabled&r &athe coords!'
+  - '&r'
+  
+Disabled Message:
+  - '&r'
+  - '&cYou have &4&ndisabled&r &cthe coords!'
+  - '&r'
+
+No Permission:
+  - '&cYou do not have permission!'
+
+# This is the message that will appear above the hotbar and/or bossbar.
+# NOTE: These will have to be set to true in order to see them.
+# Available place holders: %X%, %Y%, %Z%, %UPPER_CASE_FACING%, %LOWER_CASE_FACING%, %FACING%, %FACING_ABBREVIATION%, %FACING_XZ%, %YAW%, %PITCH%, %BIOME% %UPPER_CASE_BIOME%, %LOWER_CASE_BIOME%, %12_WORLD_TIME%, %24_WORLD_TIME% %SLIME_CHUNK%, %UPPER_CASE_SLIME_CHUNK%, %LOWER_CASE_SLIME_CHUNK%, %ITEM_DURA%, %TARGET_BLOCK%, %UPPER_CASE_TARGET_BLOCK%, %LOWER_CASE_TARGET_BLOCK%, %TARGET_X%, %TARGET_Y%, %TARGET_Z%  
+BossBar Format: '&3X&7: %X%     &3Y&7: %Y%     &3Z&7: %Z%     &3Facing&7: %UPPER_CASE_FACING%'
+ActionBar Format: '&3X&7: %X%     &3Y&7: %Y%     &3Z&7: %Z%     &3Facing&7: %UPPER_CASE_FACING%'
